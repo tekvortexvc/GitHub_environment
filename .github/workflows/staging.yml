@@ -36,4 +36,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-          echo "$Test" ${{ env.Production }}
+          echo ${{ vars.Test }} ${{ vars.Production }}
